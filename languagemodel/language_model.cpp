@@ -173,7 +173,7 @@ void rank(){
 	vector<node>::const_iterator it_p;	
 	
 	for(it_p=v_prob.begin();it_p!=v_prob.end();it_p++){
-		cout<<(*it_p).probability<<" "<<(*it_p).filename<<endl;
+		cout<<(*it_p).filename<<" "<<(*it_p).probability<<endl;
 	}
 }
 int main(){

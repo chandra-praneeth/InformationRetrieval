@@ -238,7 +238,7 @@ int main(){
 		cout<<"Enter the query\n";
 		//cin>>query;
 		getline(cin,query);
-		cout<<query<<endl;
+		//cout<<query<<endl;
 		trim_spaces(); // remove spaces and other unwanted characters
 		cout<<query<<endl;		
 		boolean_retrieval();
